@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "+lkC3NyJqQKoNgXG/uH36PTp5YeHl0+ve46WEfNQyYM=",
+  "Source": "Akka.Hosting.CustomJournalIdDemo.FSharp",
+  "BasePath": "_content/Akka.Hosting.CustomJournalIdDemo.FSharp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

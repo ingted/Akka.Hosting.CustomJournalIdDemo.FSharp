@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Akka.Hosting.CustomJournalIdDemo.FSharp.props" />
+</Project>

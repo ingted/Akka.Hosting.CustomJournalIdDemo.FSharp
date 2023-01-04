@@ -3,9 +3,6 @@
 
 open Akka.Cluster.Sharding
 open Akka.Util
-
-
-
 open Akka.Actor
 open Akka.Event
 
@@ -154,7 +151,7 @@ module Actors =
                     .Select(fun uc -> uc.Event :?> UserCreatedEvent)
                     .WithAttributes(ActorAttributes.CreateSupervisionStrategy(fun e -> Supervision.Directive.Restart))
             
-            srj0.RunWith<Akka.NotUsed>(r, Context.Materializer())
+            srj0.RunWith<Akka.NotUsed>(r, Context.Materializer()) |> ignore
     
     
 
@@ -253,6 +250,7 @@ module Main =
     open Microsoft.AspNetCore.Http
     open System.Threading.Tasks
     open System.Collections.Generic
+    open Microsoft.Extensions.Configuration
     type RootHandler = delegate of ActorRegistry -> Task<IEnumerable<UserDescriptor>>
     type UserHandler = delegate of string * ActorRegistry -> Task<UserDescriptor>
 
@@ -265,10 +263,8 @@ module Main =
             Action<_>(fun (configurationBuilder: AkkaConfigurationBuilder) ->
    
             // Grab connection strings from appsettings.json
-                let localConn = //builder.Configuration.GetConnectionString("sqlServerLocal");
-                    "sqlServerLocal"
-                let shardingConn = //builder.Configuration.GetConnectionString("sqlServerSharding");
-                    "sqlServerSharding"
+                let localConn = builder.Configuration.GetConnectionString("sqlServerLocal");
+                let shardingConn = builder.Configuration.GetConnectionString("sqlServerSharding");
             // Custom journal options with the id "sharding"
             // The absolute id will be "akka.persistence.journal.sharding"
                 let shardingJournalOptions = 
@@ -277,7 +273,7 @@ module Main =
                         , Identifier = "sharding"
                         )
                 shardingJournalOptions.ConnectionString <- shardingConn
-                shardingJournalOptions.AutoInitialize <- true
+                shardingJournalOptions.AutoInitialize <- false
         
             // Custom snapshots options with the id "sharding"
             // The absolute id will be "akka.persistence.snapshot-store.sharding"
@@ -287,10 +283,10 @@ module Main =
                         , Identifier = "sharding"
                         )
                 shardingSnapshotOptions.ConnectionString <- shardingConn
-                shardingSnapshotOptions.AutoInitialize <- true
+                shardingSnapshotOptions.AutoInitialize <- false
                 let co = new ClusterOptions()
                 co.Roles <- [| "myRole" |]
-                co.SeedNodes <- [| "akka.tcp://MyActorSystem@localhost:8110" |]
+                co.SeedNodes <- [| "akka.tcp://FAkkaHttp@localhost:8110" |]
                 let so = new ShardOptions ()
                 so.StateStoreMode <- StateStoreMode.Persistence
                 so.Role <- "myRole"
@@ -353,3 +349,9 @@ module Main =
         app.Run()
         0
 
+(*
+truncate table Akka.[dbo].[EventJournal]
+truncate table Akka.[dbo].[SnapshotStore]
+truncate table [AkkaSharding].[dbo].[EventJournal]
+truncate table [AkkaSharding].[dbo].[SnapshotStore]
+*)
