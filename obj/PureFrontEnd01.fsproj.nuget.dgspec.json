@@ -1,0 +1,155 @@
+{
+  "format": 1,
+  "restore": {
+    "G:\\coldfar_py\\sharftrade7\\Experiments\\WS\\PureFrontEnd01\\PureFrontEnd01.fsproj": {}
+  },
+  "projects": {
+    "G:\\coldfar_py\\sharftrade7\\Experiments\\WS\\PureFrontEnd01\\PureFrontEnd01.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\coldfar_py\\sharftrade7\\Experiments\\WS\\PureFrontEnd01\\PureFrontEnd01.fsproj",
+        "projectName": "PureFrontEnd01",
+        "projectPath": "G:\\coldfar_py\\sharftrade7\\Experiments\\WS\\PureFrontEnd01\\PureFrontEnd01.fsproj",
+        "packagesPath": "C:\\Users\\anibal\\.nuget\\packages\\",
+        "outputPath": "G:\\coldfar_py\\sharftrade7\\Experiments\\WS\\PureFrontEnd01\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\anibal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.101\\FSharp\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Akka": {
+              "target": "Package",
+              "version": "[1.5.0-alpha3, )",
+              "generatePathProperty": true
+            },
+            "Akka.Cluster": {
+              "target": "Package",
+              "version": "[1.5.0-alpha3, )",
+              "generatePathProperty": true
+            },
+            "Akka.Cluster.Hosting": {
+              "target": "Package",
+              "version": "[1.0.0, )",
+              "generatePathProperty": true
+            },
+            "Akka.Cluster.Sharding": {
+              "target": "Package",
+              "version": "[1.5.0-alpha3, )",
+              "generatePathProperty": true
+            },
+            "Akka.Cluster.Tools": {
+              "target": "Package",
+              "version": "[1.5.0-alpha3, )",
+              "generatePathProperty": true
+            },
+            "Akka.Coordination": {
+              "target": "Package",
+              "version": "[1.5.0-alpha3, )",
+              "generatePathProperty": true
+            },
+            "Akka.DistributedData": {
+              "target": "Package",
+              "version": "[1.5.0-alpha3, )",
+              "generatePathProperty": true
+            },
+            "Akka.FSharp": {
+              "target": "Package",
+              "version": "[1.5.0-alpha3, )",
+              "generatePathProperty": true
+            },
+            "Akka.Logger.NLog": {
+              "target": "Package",
+              "version": "[1.4.10, )",
+              "generatePathProperty": true
+            },
+            "Akka.Persistence": {
+              "target": "Package",
+              "version": "[1.5.0-alpha3, )",
+              "generatePathProperty": true
+            },
+            "Akka.Persistence.FSharp": {
+              "target": "Package",
+              "version": "[1.5.0-alpha3, )",
+              "generatePathProperty": true
+            },
+            "Akka.Persistence.SqlServer": {
+              "target": "Package",
+              "version": "[1.4.35, )",
+              "generatePathProperty": true
+            },
+            "Akka.Persistence.SqlServer.Hosting": {
+              "target": "Package",
+              "version": "[1.0.0, )",
+              "generatePathProperty": true
+            },
+            "Akka.Quartz.Actor": {
+              "target": "Package",
+              "version": "[1.4.47, )",
+              "generatePathProperty": true
+            },
+            "Akka.Remote": {
+              "target": "Package",
+              "version": "[1.5.0-alpha3, )",
+              "generatePathProperty": true
+            },
+            "Akka.Serialization.Hyperion": {
+              "target": "Package",
+              "version": "[1.5.0-alpha3, )",
+              "generatePathProperty": true
+            },
+            "Akka.Streams": {
+              "target": "Package",
+              "version": "[1.5.0-alpha3, )",
+              "generatePathProperty": true
+            },
+            "FSharp.Core": {
+              "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[7.0.0, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
