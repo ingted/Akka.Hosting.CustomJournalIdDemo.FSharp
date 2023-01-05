@@ -8,59 +8,45 @@
     ".NETCoreApp,Version=v7.0": {
       "Akka.Hosting.CustomJournalIdDemo.FSharp/1.0.0": {
         "dependencies": {
-          "Akka": "1.5.0-alpha3",
-          "Akka.Cluster": "1.5.0-alpha3",
           "Akka.Cluster.Hosting": "1.0.0",
-          "Akka.Cluster.Sharding": "1.5.0-alpha3",
-          "Akka.Cluster.Tools": "1.5.0-alpha3",
-          "Akka.Coordination": "1.5.0-alpha3",
-          "Akka.DistributedData": "1.5.0-alpha3",
-          "Akka.FSharp": "1.5.0-alpha3",
-          "Akka.Logger.NLog": "1.4.10",
-          "Akka.Persistence": "1.5.0-alpha3",
-          "Akka.Persistence.FSharp": "1.5.0-alpha3",
-          "Akka.Persistence.SqlServer": "1.4.35",
           "Akka.Persistence.SqlServer.Hosting": "1.0.0",
-          "Akka.Quartz.Actor": "1.4.47",
-          "Akka.Remote": "1.5.0-alpha3",
-          "Akka.Serialization.Hyperion": "1.5.0-alpha3",
-          "Akka.Streams": "1.5.0-alpha3",
           "FSharp.Core": "7.0.0"
         },
         "runtime": {
           "Akka.Hosting.CustomJournalIdDemo.FSharp.dll": {}
         }
       },
-      "Akka/1.5.0-alpha3": {
+      "Akka/1.4.47": {
         "dependencies": {
-          "Microsoft.Extensions.ObjectPool": "6.0.10",
+          "Microsoft.Extensions.ObjectPool": "5.0.5",
           "Newtonsoft.Json": "13.0.1",
           "System.Collections.Immutable": "5.0.0",
           "System.Configuration.ConfigurationManager": "6.0.1",
-          "System.Reflection.Emit": "4.7.0"
+          "System.Reflection.Emit": "4.7.0",
+          "System.Threading.Channels": "5.0.0"
         },
         "runtime": {
-          "lib/net6.0/Akka.dll": {
-            "assemblyVersion": "1.5.0.0",
-            "fileVersion": "1.5.0.0"
+          "lib/netstandard2.0/Akka.dll": {
+            "assemblyVersion": "1.4.47.0",
+            "fileVersion": "1.4.47.0"
           }
         }
       },
-      "Akka.Cluster/1.5.0-alpha3": {
+      "Akka.Cluster/1.4.47": {
         "dependencies": {
-          "Akka.Coordination": "1.5.0-alpha3",
-          "Akka.Remote": "1.5.0-alpha3"
+          "Akka.Coordination": "1.4.47",
+          "Akka.Remote": "1.4.47"
         },
         "runtime": {
-          "lib/net6.0/Akka.Cluster.dll": {
-            "assemblyVersion": "1.5.0.0",
-            "fileVersion": "1.5.0.0"
+          "lib/netstandard2.0/Akka.Cluster.dll": {
+            "assemblyVersion": "1.4.47.0",
+            "fileVersion": "1.4.47.0"
           }
         }
       },
       "Akka.Cluster.Hosting/1.0.0": {
         "dependencies": {
-          "Akka.Cluster.Sharding": "1.5.0-alpha3",
+          "Akka.Cluster.Sharding": "1.4.47",
           "Akka.Persistence.Hosting": "1.0.0",
           "Akka.Remote.Hosting": "1.0.0"
         },
@@ -71,47 +57,47 @@
           }
         }
       },
-      "Akka.Cluster.Sharding/1.5.0-alpha3": {
+      "Akka.Cluster.Sharding/1.4.47": {
         "dependencies": {
-          "Akka.Cluster.Tools": "1.5.0-alpha3",
-          "Akka.Coordination": "1.5.0-alpha3",
-          "Akka.DistributedData": "1.5.0-alpha3",
-          "Akka.DistributedData.LightningDB": "1.5.0-alpha3",
-          "Akka.Persistence": "1.5.0-alpha3"
+          "Akka.Cluster.Tools": "1.4.47",
+          "Akka.Coordination": "1.4.47",
+          "Akka.DistributedData": "1.4.47",
+          "Akka.DistributedData.LightningDB": "1.4.47",
+          "Akka.Persistence": "1.4.47"
         },
         "runtime": {
-          "lib/net6.0/Akka.Cluster.Sharding.dll": {
-            "assemblyVersion": "1.5.0.0",
-            "fileVersion": "1.5.0.0"
+          "lib/netstandard2.0/Akka.Cluster.Sharding.dll": {
+            "assemblyVersion": "1.4.47.0",
+            "fileVersion": "1.4.47.0"
           }
         }
       },
-      "Akka.Cluster.Tools/1.5.0-alpha3": {
+      "Akka.Cluster.Tools/1.4.47": {
         "dependencies": {
-          "Akka.Cluster": "1.5.0-alpha3",
-          "Akka.Coordination": "1.5.0-alpha3"
+          "Akka.Cluster": "1.4.47",
+          "Akka.Coordination": "1.4.47"
         },
         "runtime": {
-          "lib/net6.0/Akka.Cluster.Tools.dll": {
-            "assemblyVersion": "1.5.0.0",
-            "fileVersion": "1.5.0.0"
+          "lib/netstandard2.0/Akka.Cluster.Tools.dll": {
+            "assemblyVersion": "1.4.47.0",
+            "fileVersion": "1.4.47.0"
           }
         }
       },
-      "Akka.Coordination/1.5.0-alpha3": {
+      "Akka.Coordination/1.4.47": {
         "dependencies": {
-          "Akka": "1.5.0-alpha3"
+          "Akka": "1.4.47"
         },
         "runtime": {
-          "lib/net6.0/Akka.Coordination.dll": {
-            "assemblyVersion": "1.5.0.0",
-            "fileVersion": "1.5.0.0"
+          "lib/netstandard2.0/Akka.Coordination.dll": {
+            "assemblyVersion": "1.4.47.0",
+            "fileVersion": "1.4.47.0"
           }
         }
       },
       "Akka.DependencyInjection/1.4.47": {
         "dependencies": {
-          "Akka": "1.5.0-alpha3",
+          "Akka": "1.4.47",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.0"
         },
         "runtime": {
@@ -121,41 +107,27 @@
           }
         }
       },
-      "Akka.DistributedData/1.5.0-alpha3": {
+      "Akka.DistributedData/1.4.47": {
         "dependencies": {
-          "Akka.Cluster": "1.5.0-alpha3",
+          "Akka.Cluster": "1.4.47",
           "Hyperion": "0.12.2"
         },
         "runtime": {
-          "lib/net6.0/Akka.DistributedData.dll": {
-            "assemblyVersion": "1.5.0.0",
-            "fileVersion": "1.5.0.0"
+          "lib/netstandard2.0/Akka.DistributedData.dll": {
+            "assemblyVersion": "1.4.47.0",
+            "fileVersion": "1.4.47.0"
           }
         }
       },
-      "Akka.DistributedData.LightningDB/1.5.0-alpha3": {
+      "Akka.DistributedData.LightningDB/1.4.47": {
         "dependencies": {
-          "Akka.DistributedData": "1.5.0-alpha3",
-          "LightningDB": "0.14.1"
+          "Akka.DistributedData": "1.4.47",
+          "LightningDB": "0.14.0"
         },
         "runtime": {
-          "lib/net6.0/Akka.DistributedData.LightningDB.dll": {
-            "assemblyVersion": "1.5.0.0",
-            "fileVersion": "1.5.0.0"
-          }
-        }
-      },
-      "Akka.FSharp/1.5.0-alpha3": {
-        "dependencies": {
-          "Akka": "1.5.0-alpha3",
-          "FSharp.Core": "7.0.0",
-          "FSharp.Quotations.Evaluator": "2.1.0",
-          "FsPickler": "5.3.2"
-        },
-        "runtime": {
-          "lib/net6.0/Akka.FSharp.dll": {
-            "assemblyVersion": "1.5.0.0",
-            "fileVersion": "1.5.0.0"
+          "lib/netstandard2.0/Akka.DistributedData.LightningDB.dll": {
+            "assemblyVersion": "1.4.47.0",
+            "fileVersion": "1.4.47.0"
           }
         }
       },
@@ -172,47 +144,22 @@
           }
         }
       },
-      "Akka.Logger.NLog/1.4.10": {
+      "Akka.Persistence/1.4.47": {
         "dependencies": {
-          "Akka": "1.5.0-alpha3",
-          "NLog": "4.7.5"
+          "Akka": "1.4.47",
+          "Google.Protobuf": "3.19.4"
         },
         "runtime": {
-          "lib/netstandard2.0/Akka.Logger.NLog.dll": {
-            "assemblyVersion": "1.4.10.0",
-            "fileVersion": "1.4.10.0"
-          }
-        }
-      },
-      "Akka.Persistence/1.5.0-alpha3": {
-        "dependencies": {
-          "Akka": "1.5.0-alpha3",
-          "Google.Protobuf": "3.21.9"
-        },
-        "runtime": {
-          "lib/net6.0/Akka.Persistence.dll": {
-            "assemblyVersion": "1.5.0.0",
-            "fileVersion": "1.5.0.0"
-          }
-        }
-      },
-      "Akka.Persistence.FSharp/1.5.0-alpha3": {
-        "dependencies": {
-          "Akka.FSharp": "1.5.0-alpha3",
-          "Akka.Persistence": "1.5.0-alpha3",
-          "FSharp.Core": "7.0.0"
-        },
-        "runtime": {
-          "lib/net6.0/Akka.Persistence.FSharp.dll": {
-            "assemblyVersion": "1.5.0.0",
-            "fileVersion": "1.5.0.0"
+          "lib/netstandard2.0/Akka.Persistence.dll": {
+            "assemblyVersion": "1.4.47.0",
+            "fileVersion": "1.4.47.0"
           }
         }
       },
       "Akka.Persistence.Hosting/1.0.0": {
         "dependencies": {
           "Akka.Hosting": "1.0.0",
-          "Akka.Persistence": "1.5.0-alpha3"
+          "Akka.Persistence": "1.4.47"
         },
         "runtime": {
           "lib/netstandard2.0/Akka.Persistence.Hosting.dll": {
@@ -223,8 +170,8 @@
       },
       "Akka.Persistence.Query/1.4.47": {
         "dependencies": {
-          "Akka.Persistence": "1.5.0-alpha3",
-          "Akka.Streams": "1.5.0-alpha3"
+          "Akka.Persistence": "1.4.47",
+          "Akka.Streams": "1.4.47"
         },
         "runtime": {
           "lib/netstandard2.0/Akka.Persistence.Query.dll": {
@@ -235,7 +182,7 @@
       },
       "Akka.Persistence.Query.Sql/1.4.47": {
         "dependencies": {
-          "Akka.Persistence": "1.5.0-alpha3",
+          "Akka.Persistence": "1.4.47",
           "Akka.Persistence.Query": "1.4.47",
           "Akka.Persistence.Sql.Common": "1.4.47"
         },
@@ -248,7 +195,7 @@
       },
       "Akka.Persistence.Sql.Common/1.4.47": {
         "dependencies": {
-          "Akka.Persistence": "1.5.0-alpha3",
+          "Akka.Persistence": "1.4.47",
           "System.Configuration.ConfigurationManager": "6.0.1",
           "System.Data.Common": "4.3.0"
         },
@@ -285,35 +232,23 @@
           }
         }
       },
-      "Akka.Quartz.Actor/1.4.47": {
+      "Akka.Remote/1.4.47": {
         "dependencies": {
-          "Akka": "1.5.0-alpha3",
-          "Quartz": "3.5.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Akka.Quartz.Actor.dll": {
-            "assemblyVersion": "0.0.0.0",
-            "fileVersion": "0.0.0.0"
-          }
-        }
-      },
-      "Akka.Remote/1.5.0-alpha3": {
-        "dependencies": {
-          "Akka": "1.5.0-alpha3",
+          "Akka": "1.4.47",
           "DotNetty.Handlers": "0.6.0",
-          "Google.Protobuf": "3.21.9"
+          "Google.Protobuf": "3.19.4"
         },
         "runtime": {
-          "lib/net6.0/Akka.Remote.dll": {
-            "assemblyVersion": "1.5.0.0",
-            "fileVersion": "1.5.0.0"
+          "lib/netstandard2.0/Akka.Remote.dll": {
+            "assemblyVersion": "1.4.47.0",
+            "fileVersion": "1.4.47.0"
           }
         }
       },
       "Akka.Remote.Hosting/1.0.0": {
         "dependencies": {
           "Akka.Hosting": "1.0.0",
-          "Akka.Remote": "1.5.0-alpha3"
+          "Akka.Remote": "1.4.47"
         },
         "runtime": {
           "lib/netstandard2.0/Akka.Remote.Hosting.dll": {
@@ -322,36 +257,26 @@
           }
         }
       },
-      "Akka.Serialization.Hyperion/1.5.0-alpha3": {
+      "Akka.Streams/1.4.47": {
         "dependencies": {
-          "Akka": "1.5.0-alpha3",
-          "Hyperion": "0.12.2"
+          "Akka": "1.4.47",
+          "Google.Protobuf": "3.19.4",
+          "Microsoft.Bcl.AsyncInterfaces": "5.0.0",
+          "Reactive.Streams": "1.0.2",
+          "System.Reflection.TypeExtensions": "4.7.0"
         },
         "runtime": {
-          "lib/net6.0/Akka.Serialization.Hyperion.dll": {
-            "assemblyVersion": "1.5.0.0",
-            "fileVersion": "1.5.0.0"
-          }
-        }
-      },
-      "Akka.Streams/1.5.0-alpha3": {
-        "dependencies": {
-          "Akka": "1.5.0-alpha3",
-          "Google.Protobuf": "3.21.9",
-          "Reactive.Streams": "1.0.2"
-        },
-        "runtime": {
-          "lib/net6.0/Akka.Streams.dll": {
-            "assemblyVersion": "1.5.0.0",
-            "fileVersion": "1.5.0.0"
+          "lib/netstandard2.0/Akka.Streams.dll": {
+            "assemblyVersion": "1.4.47.0",
+            "fileVersion": "1.4.47.0"
           }
         }
       },
       "Azure.Core/1.6.0": {
         "dependencies": {
-          "Microsoft.Bcl.AsyncInterfaces": "1.0.0",
+          "Microsoft.Bcl.AsyncInterfaces": "5.0.0",
           "System.Buffers": "4.5.0",
-          "System.Diagnostics.DiagnosticSource": "4.7.1",
+          "System.Diagnostics.DiagnosticSource": "4.7.0",
           "System.Memory": "4.5.4",
           "System.Numerics.Vectors": "4.5.0",
           "System.Text.Json": "4.6.0",
@@ -454,7 +379,7 @@
           "System.Net.NameResolution": "4.3.0",
           "System.Net.Primitives": "4.3.0",
           "System.Net.Sockets": "4.3.0",
-          "System.Reflection.TypeExtensions": "4.3.0",
+          "System.Reflection.TypeExtensions": "4.7.0",
           "System.Threading.Tasks.Extensions": "4.5.2"
         },
         "runtime": {
@@ -513,34 +438,11 @@
           }
         }
       },
-      "FSharp.Quotations.Evaluator/2.1.0": {
-        "dependencies": {
-          "FSharp.Core": "7.0.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/FSharp.Quotations.Evaluator.dll": {
-            "assemblyVersion": "2.1.0.0",
-            "fileVersion": "2.1.0.0"
-          }
-        }
-      },
-      "FsPickler/5.3.2": {
-        "dependencies": {
-          "FSharp.Core": "7.0.0",
-          "System.Reflection.Emit.Lightweight": "4.3.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/FsPickler.dll": {
-            "assemblyVersion": "5.3.2.0",
-            "fileVersion": "5.3.2.0"
-          }
-        }
-      },
-      "Google.Protobuf/3.21.9": {
+      "Google.Protobuf/3.19.4": {
         "runtime": {
           "lib/net5.0/Google.Protobuf.dll": {
-            "assemblyVersion": "3.21.9.0",
-            "fileVersion": "3.21.9.0"
+            "assemblyVersion": "3.19.4.0",
+            "fileVersion": "3.19.4.0"
           }
         }
       },
@@ -558,14 +460,14 @@
           }
         }
       },
-      "LightningDB/0.14.1": {
+      "LightningDB/0.14.0": {
         "dependencies": {
           "System.Memory": "4.5.4"
         },
         "runtime": {
-          "lib/net6.0/LightningDB.dll": {
-            "assemblyVersion": "0.14.1.0",
-            "fileVersion": "0.14.1.0"
+          "lib/net5.0/LightningDB.dll": {
+            "assemblyVersion": "0.14.0.0",
+            "fileVersion": "0.14.0.0"
           }
         },
         "runtimeTargets": {
@@ -611,11 +513,11 @@
           }
         }
       },
-      "Microsoft.Bcl.AsyncInterfaces/1.0.0": {
+      "Microsoft.Bcl.AsyncInterfaces/5.0.0": {
         "runtime": {
           "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "4.700.19.46214"
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
           }
         }
       },
@@ -629,7 +531,7 @@
           "Microsoft.IdentityModel.Protocols.OpenIdConnect": "6.8.0",
           "Microsoft.Win32.Registry": "4.7.0",
           "System.Configuration.ConfigurationManager": "6.0.1",
-          "System.Diagnostics.DiagnosticSource": "4.7.1",
+          "System.Diagnostics.DiagnosticSource": "4.7.0",
           "System.Runtime.Caching": "4.7.0",
           "System.Security.Principal.Windows": "4.7.0",
           "System.Text.Encoding.CodePages": "4.7.0",
@@ -802,7 +704,7 @@
           "Microsoft.Extensions.Logging": "3.0.0"
         }
       },
-      "Microsoft.Extensions.ObjectPool/6.0.10": {},
+      "Microsoft.Extensions.ObjectPool/5.0.5": {},
       "Microsoft.Extensions.Options/3.0.0": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.0",
@@ -981,27 +883,6 @@
           }
         }
       },
-      "NLog/4.7.5": {
-        "runtime": {
-          "lib/netstandard2.0/NLog.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.7.5.12092"
-          }
-        }
-      },
-      "Quartz/3.5.0": {
-        "dependencies": {
-          "Microsoft.Extensions.Logging.Abstractions": "3.0.0",
-          "System.Configuration.ConfigurationManager": "6.0.1",
-          "System.Diagnostics.DiagnosticSource": "4.7.1"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Quartz.dll": {
-            "assemblyVersion": "3.5.0.0",
-            "fileVersion": "3.5.0.0"
-          }
-        }
-      },
       "Reactive.Streams/1.0.2": {
         "dependencies": {
           "NETStandard.Library": "1.6.1"
@@ -1140,7 +1021,7 @@
           "System.Runtime": "4.3.1"
         }
       },
-      "System.Diagnostics.DiagnosticSource/4.7.1": {},
+      "System.Diagnostics.DiagnosticSource/4.7.0": {},
       "System.Diagnostics.EventLog/4.6.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0",
@@ -1313,7 +1194,7 @@
           "System.Reflection.Emit.Lightweight": "4.3.0",
           "System.Reflection.Extensions": "4.3.0",
           "System.Reflection.Primitives": "4.3.0",
-          "System.Reflection.TypeExtensions": "4.3.0",
+          "System.Reflection.TypeExtensions": "4.7.0",
           "System.Resources.ResourceManager": "4.3.0",
           "System.Runtime": "4.3.1",
           "System.Runtime.Extensions": "4.3.0",
@@ -1326,7 +1207,7 @@
           "Microsoft.NETCore.Platforms": "3.1.0",
           "System.Collections": "4.3.0",
           "System.Diagnostics.Debug": "4.3.0",
-          "System.Diagnostics.DiagnosticSource": "4.7.1",
+          "System.Diagnostics.DiagnosticSource": "4.7.0",
           "System.Diagnostics.Tracing": "4.3.0",
           "System.Globalization": "4.3.0",
           "System.Globalization.Extensions": "4.3.0",
@@ -1516,12 +1397,7 @@
           "System.Runtime": "4.3.1"
         }
       },
-      "System.Reflection.TypeExtensions/4.3.0": {
-        "dependencies": {
-          "System.Reflection": "4.3.0",
-          "System.Runtime": "4.3.1"
-        }
-      },
+      "System.Reflection.TypeExtensions/4.7.0": {},
       "System.Resources.ResourceManager/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0",
@@ -1794,6 +1670,7 @@
           "System.Threading.Tasks": "4.3.0"
         }
       },
+      "System.Threading.Channels/5.0.0": {},
       "System.Threading.Overlapped/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0",
@@ -1890,19 +1767,19 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Akka/1.5.0-alpha3": {
+    "Akka/1.4.47": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-aOR03fW7B+t3kqX8HIRZRrPifOVo2GflwwZKyykAJkZLlKjxUWgXbeFT/bIMnKWyD8ptXEtX3R0mf+o5lToG1Q==",
-      "path": "akka/1.5.0-alpha3",
-      "hashPath": "akka.1.5.0-alpha3.nupkg.sha512"
+      "sha512": "sha512-qNqXrAHdZAQQWUWt8KArITsdzbZyhhYRnWqvM6NDlCSNaprdGz3b8iFsNhK4h76uqQRJKokAwP1OIOXvI/he8w==",
+      "path": "akka/1.4.47",
+      "hashPath": "akka.1.4.47.nupkg.sha512"
     },
-    "Akka.Cluster/1.5.0-alpha3": {
+    "Akka.Cluster/1.4.47": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-WhMQuIE7ewTxKXxB05q2vkHDikYkyw0rBhp0Jk1FqI2U1rQxHnIrCylUcpYbqeIOBmoD9M+SJi5SiZ7PzQk6wA==",
-      "path": "akka.cluster/1.5.0-alpha3",
-      "hashPath": "akka.cluster.1.5.0-alpha3.nupkg.sha512"
+      "sha512": "sha512-58jot9wXTDmFbh71x6aM53tl893UWAc+xQosyzXlIB1ffmchcuzxwbMxS+e8fCtEFo9IlA5sUYsK7B9BvDoUew==",
+      "path": "akka.cluster/1.4.47",
+      "hashPath": "akka.cluster.1.4.47.nupkg.sha512"
     },
     "Akka.Cluster.Hosting/1.0.0": {
       "type": "package",
@@ -1911,26 +1788,26 @@
       "path": "akka.cluster.hosting/1.0.0",
       "hashPath": "akka.cluster.hosting.1.0.0.nupkg.sha512"
     },
-    "Akka.Cluster.Sharding/1.5.0-alpha3": {
+    "Akka.Cluster.Sharding/1.4.47": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-lG1DIAg6ihA99zytmOkmyYx+Zr2mAzqauoFfZetXzx9FwqmWn16i4swYC562iCiL54O7y/JpbbZ2d+Ts7O3KGA==",
-      "path": "akka.cluster.sharding/1.5.0-alpha3",
-      "hashPath": "akka.cluster.sharding.1.5.0-alpha3.nupkg.sha512"
+      "sha512": "sha512-Q9BLzJThkjJHfGFF3xUgb51J3x2VpZd3I77I71eCVNEECZKqTs9diArf8VTTNEaeCigaVYXxNaIFUj/Ew1pP+Q==",
+      "path": "akka.cluster.sharding/1.4.47",
+      "hashPath": "akka.cluster.sharding.1.4.47.nupkg.sha512"
     },
-    "Akka.Cluster.Tools/1.5.0-alpha3": {
+    "Akka.Cluster.Tools/1.4.47": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-wiVSg8CBRI6xE79IgmHEIx0gy/KAJLAIVNXP5wXTpHGsw4wKgq4zyUCPZoYJ68iFVL7YDSFpS1SBZA/rJswjpQ==",
-      "path": "akka.cluster.tools/1.5.0-alpha3",
-      "hashPath": "akka.cluster.tools.1.5.0-alpha3.nupkg.sha512"
+      "sha512": "sha512-l1CQRS+3GrQ2EXQRet/QhsRzIuVcj8mNXjxTo+Vr6pRVLfh3l0VsVh7dNwXsuyG3eOtnc363QkkvX7aJSZxK/g==",
+      "path": "akka.cluster.tools/1.4.47",
+      "hashPath": "akka.cluster.tools.1.4.47.nupkg.sha512"
     },
-    "Akka.Coordination/1.5.0-alpha3": {
+    "Akka.Coordination/1.4.47": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ioNC5WBnz5uygMQ59U4FQdfcR7PHbyOqiKEiLF4X/mGbj7b/k9tas74ubaNYroVUy/jrkehre72Fd8b3tO0dWQ==",
-      "path": "akka.coordination/1.5.0-alpha3",
-      "hashPath": "akka.coordination.1.5.0-alpha3.nupkg.sha512"
+      "sha512": "sha512-C7KIIwdbd1CwoiGdxaTzgxmZpKm8Acv7Ntd3yuHjjuPP68JAyGLPEzeyhu63MJx4Q713jUjH10b9YVFegkXQrQ==",
+      "path": "akka.coordination/1.4.47",
+      "hashPath": "akka.coordination.1.4.47.nupkg.sha512"
     },
     "Akka.DependencyInjection/1.4.47": {
       "type": "package",
@@ -1939,26 +1816,19 @@
       "path": "akka.dependencyinjection/1.4.47",
       "hashPath": "akka.dependencyinjection.1.4.47.nupkg.sha512"
     },
-    "Akka.DistributedData/1.5.0-alpha3": {
+    "Akka.DistributedData/1.4.47": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-pKHOKKK0n8ZyP+gfdtZebk4i21fKDdGY0Oq3vcVWg+AcERdcEXvE1ZRBxQGOM68zqmyGg9dQUAVwLzcNgEmcxA==",
-      "path": "akka.distributeddata/1.5.0-alpha3",
-      "hashPath": "akka.distributeddata.1.5.0-alpha3.nupkg.sha512"
+      "sha512": "sha512-ggIs9LoIfA8LFsOz0/2PilNSIUZXMwL1N9ih7Dt+tekH43ZkRZbg4XFcb0JG5fwjKmk71F0WZ47pTiChqiv0cQ==",
+      "path": "akka.distributeddata/1.4.47",
+      "hashPath": "akka.distributeddata.1.4.47.nupkg.sha512"
     },
-    "Akka.DistributedData.LightningDB/1.5.0-alpha3": {
+    "Akka.DistributedData.LightningDB/1.4.47": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-gEuIHfmaDbX7nEvBvN67sWVVjztdwYwTqjGMci+n58dyWAyx5QhiooTRsuWrRwsNXYmOBMOjUQVpjlsjPJOKkg==",
-      "path": "akka.distributeddata.lightningdb/1.5.0-alpha3",
-      "hashPath": "akka.distributeddata.lightningdb.1.5.0-alpha3.nupkg.sha512"
-    },
-    "Akka.FSharp/1.5.0-alpha3": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-ATRDBdtXJgg9UuaEt1Cy9JLKhsc1YiwdQEopIYfE+c4PwR2CFcH6P/tbMZ1q1Pdq9EJ8nE8AY0I6MVUdg1uIeg==",
-      "path": "akka.fsharp/1.5.0-alpha3",
-      "hashPath": "akka.fsharp.1.5.0-alpha3.nupkg.sha512"
+      "sha512": "sha512-w3CpZF0vbHzpkDqBF5BjKu20RF+ZXt8QFkjQLqdnTw+gkDB7ZTpmZCVEnTA5PUAAcQFwlSqm7dzoxKozAmOTYA==",
+      "path": "akka.distributeddata.lightningdb/1.4.47",
+      "hashPath": "akka.distributeddata.lightningdb.1.4.47.nupkg.sha512"
     },
     "Akka.Hosting/1.0.0": {
       "type": "package",
@@ -1967,26 +1837,12 @@
       "path": "akka.hosting/1.0.0",
       "hashPath": "akka.hosting.1.0.0.nupkg.sha512"
     },
-    "Akka.Logger.NLog/1.4.10": {
+    "Akka.Persistence/1.4.47": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-E9pO/R8OZMOfzY41sVxsOdNn2zf8dnMzq0LhBEH57LAuEH4u/XYmkmHdzIAUQLyR31t1PGb8rs8GKX5I1AsAaQ==",
-      "path": "akka.logger.nlog/1.4.10",
-      "hashPath": "akka.logger.nlog.1.4.10.nupkg.sha512"
-    },
-    "Akka.Persistence/1.5.0-alpha3": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-M7EF9yEMXMRM4bHRpGkUQuI5moABchnwsAzIGdMcnoEXRzhwu/SqqvHBxk1Q5n9Si+NM1/DuZML8PCJhnbYRXQ==",
-      "path": "akka.persistence/1.5.0-alpha3",
-      "hashPath": "akka.persistence.1.5.0-alpha3.nupkg.sha512"
-    },
-    "Akka.Persistence.FSharp/1.5.0-alpha3": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-TWAZyGdzO9FaRz3hscH3OsPLBn5XOI041l3TfDpVHykdnoaA1KzqzKUJGXDSs0F2XyCe6FaGa1k8OJbTjxjPVA==",
-      "path": "akka.persistence.fsharp/1.5.0-alpha3",
-      "hashPath": "akka.persistence.fsharp.1.5.0-alpha3.nupkg.sha512"
+      "sha512": "sha512-A3CIDfd13F3UEGXthCSoUFp60ZBOY9b70Fl1QV16uWyZC4Up/uWPoNNeh9Uoz+282ysuITverJCwJK0t/bQbCw==",
+      "path": "akka.persistence/1.4.47",
+      "hashPath": "akka.persistence.1.4.47.nupkg.sha512"
     },
     "Akka.Persistence.Hosting/1.0.0": {
       "type": "package",
@@ -2030,19 +1886,12 @@
       "path": "akka.persistence.sqlserver.hosting/1.0.0",
       "hashPath": "akka.persistence.sqlserver.hosting.1.0.0.nupkg.sha512"
     },
-    "Akka.Quartz.Actor/1.4.47": {
+    "Akka.Remote/1.4.47": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-FFLmTX++uzb9d2YtKXgXxYfFXWIwM7DNPVEvDL9RAsTboVkOAq/UsxgJzKMW3yRet54XyUI+gqeL16MfHeomVw==",
-      "path": "akka.quartz.actor/1.4.47",
-      "hashPath": "akka.quartz.actor.1.4.47.nupkg.sha512"
-    },
-    "Akka.Remote/1.5.0-alpha3": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-0c0yyWL6rAf6aO1IiImKV5f6eDoCi1AbxaGs9k0qLpl7SjWiC45+5sRhxxYZe4DYdYPh0suX4ORUTsGUvMCkEQ==",
-      "path": "akka.remote/1.5.0-alpha3",
-      "hashPath": "akka.remote.1.5.0-alpha3.nupkg.sha512"
+      "sha512": "sha512-TNhz360jvV0Wy85Os/U/7peVAU3CGZjYosk0gGxdy7BvX5Qe3X0f6aVwD5ZMhxAHoMFfB5oIhJ+ZSTZScUwPsA==",
+      "path": "akka.remote/1.4.47",
+      "hashPath": "akka.remote.1.4.47.nupkg.sha512"
     },
     "Akka.Remote.Hosting/1.0.0": {
       "type": "package",
@@ -2051,19 +1900,12 @@
       "path": "akka.remote.hosting/1.0.0",
       "hashPath": "akka.remote.hosting.1.0.0.nupkg.sha512"
     },
-    "Akka.Serialization.Hyperion/1.5.0-alpha3": {
+    "Akka.Streams/1.4.47": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-jAvKn0E0ip47BZpkEFZPOoNsx5ccLYmbZZLbiJbKhAJB0bDs4Ri3Qi7XceDYfz+xni6Dou2b/lkFn8j/tqYMnQ==",
-      "path": "akka.serialization.hyperion/1.5.0-alpha3",
-      "hashPath": "akka.serialization.hyperion.1.5.0-alpha3.nupkg.sha512"
-    },
-    "Akka.Streams/1.5.0-alpha3": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-fRkqYlrXlIl+sZpPw8BvkxszR8a5GR6hMLDhRvayyGSVCfCVHvjFYyVJ4mXeq1lerq8uglTJUIuzYhJPpwYdoA==",
-      "path": "akka.streams/1.5.0-alpha3",
-      "hashPath": "akka.streams.1.5.0-alpha3.nupkg.sha512"
+      "sha512": "sha512-Dj4ttDuJ4WMYT6M+NL9Q4HwgyVuYbw5k4BVJ+3gxnhdh5NhxrPoDq0ATdd3KFmWiBUxRRFL1LPCFOstrFJpUCA==",
+      "path": "akka.streams/1.4.47",
+      "hashPath": "akka.streams.1.4.47.nupkg.sha512"
     },
     "Azure.Core/1.6.0": {
       "type": "package",
@@ -2121,26 +1963,12 @@
       "path": "fsharp.core/7.0.0",
       "hashPath": "fsharp.core.7.0.0.nupkg.sha512"
     },
-    "FSharp.Quotations.Evaluator/2.1.0": {
+    "Google.Protobuf/3.19.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-UwmbcIw78pNI4h29H6Vk+45Xky7yqzpxOkHIciW/0VhCN95ANVaopD2wajn88hjabgelm7QmPrC41CKFDhHKIA==",
-      "path": "fsharp.quotations.evaluator/2.1.0",
-      "hashPath": "fsharp.quotations.evaluator.2.1.0.nupkg.sha512"
-    },
-    "FsPickler/5.3.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-LFtxXpQNor8az1ez3rN9oz2cqf/06i9yTrPyJ9R83qLEpFAU7Of0WL2hoSXzLHer4lh+6mO1NV4VQFiBzNRtjw==",
-      "path": "fspickler/5.3.2",
-      "hashPath": "fspickler.5.3.2.nupkg.sha512"
-    },
-    "Google.Protobuf/3.21.9": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-OTpFujTgkmqMLbg3KT7F/iuKi1rg6s5FCS2M9XcVLDn40zL8wgXm37CY/F6MeOEXKjdcnXGCN/h7oyMkVydVsg==",
-      "path": "google.protobuf/3.21.9",
-      "hashPath": "google.protobuf.3.21.9.nupkg.sha512"
+      "sha512": "sha512-fd07/ykL4O4FhqrZIELm5lmiyOHfdPg9+o+hWr6tcfRdS7tHXnImg/2wtogLzlW2eEmr0J7j6ZrZvaWOLiJbxQ==",
+      "path": "google.protobuf/3.19.4",
+      "hashPath": "google.protobuf.3.19.4.nupkg.sha512"
     },
     "Hyperion/0.12.2": {
       "type": "package",
@@ -2149,19 +1977,19 @@
       "path": "hyperion/0.12.2",
       "hashPath": "hyperion.0.12.2.nupkg.sha512"
     },
-    "LightningDB/0.14.1": {
+    "LightningDB/0.14.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-WeN0tb583ctpCcdvuERiqxdcO+5ZJ+Bf9HwW97bkzLPm3mEGQC1RYyNzrQ3Hl5WXTrKaZe9crsChjHumwpS5Zg==",
-      "path": "lightningdb/0.14.1",
-      "hashPath": "lightningdb.0.14.1.nupkg.sha512"
+      "sha512": "sha512-QHC4HG7lwmTgstU2d40UP1jBro7bQIwUuQ2TUDiojtd9t1TnM59YKdYA+Zg5uHiMaRUY45ceKbY0LzqRhvoEtw==",
+      "path": "lightningdb/0.14.0",
+      "hashPath": "lightningdb.0.14.0.nupkg.sha512"
     },
-    "Microsoft.Bcl.AsyncInterfaces/1.0.0": {
+    "Microsoft.Bcl.AsyncInterfaces/5.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-K63Y4hORbBcKLWH5wnKgzyn7TOfYzevIEwIedQHBIkmkEBA9SCqgvom+XTuE+fAFGvINGkhFItaZ2dvMGdT5iw==",
-      "path": "microsoft.bcl.asyncinterfaces/1.0.0",
-      "hashPath": "microsoft.bcl.asyncinterfaces.1.0.0.nupkg.sha512"
+      "sha512": "sha512-W8DPQjkMScOMTtJbPwmPyj9c3zYSFGawDW3jwlBOOsnY+EzZFLgNQ/UMkK35JmkNOVPdCyPr2Tw7Vv9N+KA3ZQ==",
+      "path": "microsoft.bcl.asyncinterfaces/5.0.0",
+      "hashPath": "microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512"
     },
     "Microsoft.CSharp/4.7.0": {
       "type": "package",
@@ -2338,12 +2166,12 @@
       "path": "microsoft.extensions.logging.eventsource/3.0.0",
       "hashPath": "microsoft.extensions.logging.eventsource.3.0.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.ObjectPool/6.0.10": {
+    "Microsoft.Extensions.ObjectPool/5.0.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-vJKO8exI4mwk2qH8I9m3bbUZMWW97pvyN7kfVn1rcVj4Eaizd0OMikU8SeHJlZyhuPJH0F7nP0Uhq7sSRFzETQ==",
-      "path": "microsoft.extensions.objectpool/6.0.10",
-      "hashPath": "microsoft.extensions.objectpool.6.0.10.nupkg.sha512"
+      "sha512": "sha512-ZfM20uUR0tf50Av8blG6hgdsveRKDiY3nd/1itwfFfXVw7GmO/DxhU1wZzt/TTk1+S6XTf56dTSgeOP9V/qwBA==",
+      "path": "microsoft.extensions.objectpool/5.0.5",
+      "hashPath": "microsoft.extensions.objectpool.5.0.5.nupkg.sha512"
     },
     "Microsoft.Extensions.Options/3.0.0": {
       "type": "package",
@@ -2463,20 +2291,6 @@
       "sha512": "sha512-ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
       "path": "newtonsoft.json/13.0.1",
       "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
-    },
-    "NLog/4.7.5": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-1Udzim+UwoAGk0vW6T2rEBXJq1COvqTuE+4NFj2zHytuX1WOu+1Yes1qABG1IJOA5V3OMilIufUU1Ha9T0rrzQ==",
-      "path": "nlog/4.7.5",
-      "hashPath": "nlog.4.7.5.nupkg.sha512"
-    },
-    "Quartz/3.5.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-tgWAByEvwWC/CE4VXfrMgt7h5FXdFKIl9Sf5X/0d4yq1rsvSgiVbcAPdFUFAgIOOTcLTtRXp1rXBGqHukIWAgQ==",
-      "path": "quartz/3.5.0",
-      "hashPath": "quartz.3.5.0.nupkg.sha512"
     },
     "Reactive.Streams/1.0.2": {
       "type": "package",
@@ -2674,12 +2488,12 @@
       "path": "system.diagnostics.debug/4.3.0",
       "hashPath": "system.diagnostics.debug.4.3.0.nupkg.sha512"
     },
-    "System.Diagnostics.DiagnosticSource/4.7.1": {
+    "System.Diagnostics.DiagnosticSource/4.7.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-j81Lovt90PDAq8kLpaJfJKV/rWdWuEk6jfV+MBkee33vzYLEUsy4gXK8laa9V2nZlLM9VM9yA/OOQxxPEJKAMw==",
-      "path": "system.diagnostics.diagnosticsource/4.7.1",
-      "hashPath": "system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+      "sha512": "sha512-oJjw3uFuVDJiJNbCD8HB4a2p3NYLdt1fiT5OGsPLw+WTOuG0KpP4OXelMmmVKpClueMsit6xOlzy4wNKQFiBLg==",
+      "path": "system.diagnostics.diagnosticsource/4.7.0",
+      "hashPath": "system.diagnostics.diagnosticsource.4.7.0.nupkg.sha512"
     },
     "System.Diagnostics.EventLog/4.6.0": {
       "type": "package",
@@ -2905,12 +2719,12 @@
       "path": "system.reflection.primitives/4.3.0",
       "hashPath": "system.reflection.primitives.4.3.0.nupkg.sha512"
     },
-    "System.Reflection.TypeExtensions/4.3.0": {
+    "System.Reflection.TypeExtensions/4.7.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-7u6ulLcZbyxB5Gq0nMkQttcdBTx57ibzw+4IOXEfR+sXYQoHvjW5LTLyNr8O22UIMrqYbchJQJnos4eooYzYJA==",
-      "path": "system.reflection.typeextensions/4.3.0",
-      "hashPath": "system.reflection.typeextensions.4.3.0.nupkg.sha512"
+      "sha512": "sha512-VybpaOQQhqE6siHppMktjfGBw1GCwvCqiufqmP8F1nj7fTUNtW35LOEt3UZTEsECfo+ELAl/9o9nJx3U91i7vA==",
+      "path": "system.reflection.typeextensions/4.7.0",
+      "hashPath": "system.reflection.typeextensions.4.7.0.nupkg.sha512"
     },
     "System.Resources.ResourceManager/4.3.0": {
       "type": "package",
@@ -3121,6 +2935,13 @@
       "sha512": "sha512-VkUS0kOBcUf3Wwm0TSbrevDDZ6BlM+b/HRiapRFWjM5O0NS0LviG0glKmFK+hhPDd1XFeSdU1GmlLhb2CoVpIw==",
       "path": "system.threading/4.3.0",
       "hashPath": "system.threading.4.3.0.nupkg.sha512"
+    },
+    "System.Threading.Channels/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RLBIxntLaG9pRmmuVDwY1kc8Bvp/FQzSxPU+19VekkScKkWtVP9r8bLhm28ama3usc816UBrmkg3vv3jUea/hw==",
+      "path": "system.threading.channels/5.0.0",
+      "hashPath": "system.threading.channels.5.0.0.nupkg.sha512"
     },
     "System.Threading.Overlapped/4.3.0": {
       "type": "package",
