@@ -1,5 +1,6 @@
 G:\coldfar_py\sharftrade7\Experiments\WS\PureFrontEnd01\bin\Debug\net7.0\Properties\launchSettings.json
 G:\coldfar_py\sharftrade7\Experiments\WS\PureFrontEnd01\bin\Debug\net7.0\Akka.Hosting.CustomJournalIdDemo.FSharp.exe
+G:\coldfar_py\sharftrade7\Experiments\WS\PureFrontEnd01\bin\Debug\net7.0\appsettings.json
 G:\coldfar_py\sharftrade7\Experiments\WS\PureFrontEnd01\bin\Debug\net7.0\Akka.Hosting.CustomJournalIdDemo.FSharp.deps.json
 G:\coldfar_py\sharftrade7\Experiments\WS\PureFrontEnd01\bin\Debug\net7.0\Akka.Hosting.CustomJournalIdDemo.FSharp.runtimeconfig.json
 G:\coldfar_py\sharftrade7\Experiments\WS\PureFrontEnd01\bin\Debug\net7.0\Akka.Hosting.CustomJournalIdDemo.FSharp.dll
@@ -106,4 +107,3 @@ G:\coldfar_py\sharftrade7\Experiments\WS\PureFrontEnd01\obj\Debug\net7.0\refint\
 G:\coldfar_py\sharftrade7\Experiments\WS\PureFrontEnd01\obj\Debug\net7.0\Akka.Hosting.CustomJournalIdDemo.FSharp.pdb
 G:\coldfar_py\sharftrade7\Experiments\WS\PureFrontEnd01\obj\Debug\net7.0\Akka.Hosting.CustomJournalIdDemo.FSharp.genruntimeconfig.cache
 G:\coldfar_py\sharftrade7\Experiments\WS\PureFrontEnd01\obj\Debug\net7.0\ref\Akka.Hosting.CustomJournalIdDemo.FSharp.dll
-G:\coldfar_py\sharftrade7\Experiments\WS\PureFrontEnd01\bin\Debug\net7.0\appsettings.json

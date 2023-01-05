@@ -158,10 +158,10 @@ module Actors =
     
             let readJournal = 
                 Context.System.ReadJournalFor<SqlReadJournal>(SqlReadJournal.Identifier)
-            //let r = 
-            //    Sink.ActorRef<UserCreatedEvent>(Context.Self, "complete")
-            //    :> IGraph<SinkShape<UserCreatedEvent>, Akka.NotUsed>
-            let rOrig = Sink.ActorRef<UserCreatedEvent>(Context.Self, "complete")
+            let r = 
+                Sink.ActorRef<UserCreatedEvent>(Context.Self, "complete")
+                :> IGraph<SinkShape<UserCreatedEvent>, Akka.NotUsed>
+            //let rOrig = Sink.ActorRef<UserCreatedEvent>(Context.Self, "complete")
             let srj0 =
                 readJournal.AllEvents()
                     .Where(fun e -> 
@@ -175,8 +175,8 @@ module Actors =
                         )
                     .WithAttributes(ActorAttributes.CreateSupervisionStrategy(fun e -> Supervision.Directive.Restart))
             
-            //srj0.RunWith<Akka.NotUsed>(r, Context.Materializer()) |> ignore
-            srj0.RunWith(rOrig, Context.Materializer()) |> ignore
+            srj0.RunWith<Akka.NotUsed>(r, Context.Materializer()) |> ignore
+            //srj0.RunWith(rOrig, Context.Materializer()) |> ignore
     
   
 module CustomJournalIdDemo =
